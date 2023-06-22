@@ -20,6 +20,9 @@
 #hero-msg h4{
     color: white;
 }
+#hero-msg h1{
+    color: white;
+}
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -216,7 +219,7 @@ footer .social img {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #ffffff;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
