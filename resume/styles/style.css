@@ -9,6 +9,26 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: var(--paragraph-font);
+    background-color: #00B4D8;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #396E94;
+    color: white;
+}
+nav a {
+    color: #013153;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+}
 .logo {
     width:80px;
 }
@@ -21,6 +41,6 @@
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
 }
 
-.home-grid {
-    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+.education {
+    grid-row: 1/2;
 }
