@@ -41,7 +41,8 @@ nav a {
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
 }
 .home-grid {
-    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .education {
     grid-row: 1/2;
@@ -57,6 +58,9 @@ nav a {
 }
 #job3 {
     grid-row: 6/8;
+}
+.jog-logo {
+    grid-column: 3/4;
 }
 .achievements {
     grid-row: 8/10;
