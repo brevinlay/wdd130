@@ -53,6 +53,9 @@ nav a {
 #job1 {
     grid-row: 2/4;
 }
+.job-logo1 {
+    grid-row:
+}
 #job2 {
     grid-row: 4/6;
 }
