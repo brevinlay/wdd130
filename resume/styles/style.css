@@ -40,7 +40,33 @@ nav a {
 #hero {
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
 }
-
+.home-grid {
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
 .education {
     grid-row: 1/2;
+}
+.section {
+    grid-row: 2/3;
+}
+#job1 {
+    grid-row: 2/4;
+}
+#job2 {
+    grid-row: 4/6;
+}
+#job3 {
+    grid-row: 6/8;
+}
+.achievements {
+    grid-row: 8/10;
+    grid-column: 1/2;
+}
+.volunteer {
+    grid-row: 8/10;
+    grid-column: 2/3;
+}
+.career-skills {
+    grid-row: 8/10;
+    grid-column: 3/4;
 }
