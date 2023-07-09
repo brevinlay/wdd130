@@ -41,7 +41,7 @@ nav a {
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
 }
 .home-grid {
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
     grid-template-columns: 1fr 1fr 1fr;
 }
 .education {
@@ -52,9 +52,6 @@ nav a {
 }
 #job1 {
     grid-row: 2/4;
-}
-.job-logo1 {
-    grid-row:
 }
 #job2 {
     grid-row: 4/6;
