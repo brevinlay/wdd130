@@ -102,6 +102,9 @@ body {
     grid-row: 2/9;
     grid-column: 1/2;
 }
+.home-grid img {
+    grid-column: 2/3;
+}
 .achievements {
     grid-row: 10;
     grid-column: 1/2;
