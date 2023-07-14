@@ -95,8 +95,9 @@ body {
 .education {
     grid-row: 1/2;
 }
-.job-logo {
-    grid-column: 3/4;
+
+.job-logo1 {
+    grid-row: 3/4;
 }
 .experience {
     grid-row: 2/9;
