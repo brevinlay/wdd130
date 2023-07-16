@@ -169,10 +169,19 @@ footer .social img {
     margin-top: 50px;
     border-radius: 5px; 
 }
+.contact-grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 100px 100vh;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: auto;
     text-align: center;
   }
   
@@ -209,4 +218,23 @@ footer .social img {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
+    margin-bottom:0%;
   }
+  .referral-title {
+    grid-column: 1/4;
+    text-align: center;
+    font-size: 100px;
+    text-decoration-line: underline;
+  }
+  .referral1 {
+    grid-row:2;
+  }
+  .referral2 {
+    grid-row:2;
+  }
+  .referral3 {
+    grid-row:2;
+  }
+
+
+
