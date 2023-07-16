@@ -52,14 +52,14 @@ body {
 }
 #hero {
     display: grid;
-    grid-template: 30%  / 1fr 1fr 1fr; 
+    grid-template: 30%  / 50% 50%; 
 }
 #hero-msg {
-    grid-column: 3/4;
+    grid-column: 2/3;
 }
 .home-title{
     font-size: 90px;
-    text-align: left;
+    text-align: center;
 }
 .button-box {
     text-align: center;
@@ -76,7 +76,7 @@ body {
     border-radius: 5px; 
 }
 .info{
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
     align-items: center;
@@ -85,7 +85,7 @@ body {
 }
 #hero-img {
     grid-row: 1/2;
-    width: 150%;
+    width: 100%;
 }
 .home-grid {
     display: grid;
@@ -142,4 +142,30 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
+}
+.description {
+    grid-row:2;
+    grid-column: 2;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.description h2{
+    text-decoration-line: underline;
+    padding-bottom: 100px;
+}
+.button-box1 {
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    grid-column: 2
+}
+.book, .join {
+    font-size: 18px;
+    background-color: #0375f8;
+    color:#000305;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; 
 }
